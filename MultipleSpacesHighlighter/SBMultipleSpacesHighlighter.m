@@ -1,14 +1,14 @@
 //
-//  SBMultipleSpaceHighlighter.m
+//  SBMultipleSpacesHighlighter.m
 //  MultipleSpaceHighlighter
 //
 //  Created by Simon Braun on 27.03.15.
 //  Copyright (c) 2015 Simon Braun. All rights reserved.
 //
 
-#import "SBMultipleSpaceHighlighter.h"
+#import "SBMultipleSpacesHighlighter.h"
 
-@implementation SBMultipleSpaceHighlighter
+@implementation SBMultipleSpacesHighlighter
 
 -(NSTextView *)hightlightMultipleSpacesIn:(NSTextView *)textView
 {

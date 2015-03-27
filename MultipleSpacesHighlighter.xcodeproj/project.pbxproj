@@ -13,7 +13,7 @@
 		F496A7381AC60067006AD605 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F496A7361AC60067006AD605 /* MainMenu.xib */; };
 		F496A7441AC60068006AD605 /* MultipleSpacesHighlighterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7431AC60068006AD605 /* MultipleSpacesHighlighterTests.m */; };
 		F496A7541AC6009B006AD605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7531AC6009B006AD605 /* ViewController.m */; };
-		F496A7571AC600BC006AD605 /* SBMultipleSpaceHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7561AC600BC006AD605 /* SBMultipleSpaceHighlighter.m */; };
+		F496A7571AC600BC006AD605 /* SBMultipleSpacesHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7561AC600BC006AD605 /* SBMultipleSpacesHighlighter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		F496A7431AC60068006AD605 /* MultipleSpacesHighlighterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleSpacesHighlighterTests.m; sourceTree = "<group>"; };
 		F496A7521AC6009B006AD605 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F496A7531AC6009B006AD605 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F496A7551AC600BC006AD605 /* SBMultipleSpaceHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMultipleSpaceHighlighter.h; sourceTree = "<group>"; };
-		F496A7561AC600BC006AD605 /* SBMultipleSpaceHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMultipleSpaceHighlighter.m; sourceTree = "<group>"; };
+		F496A7551AC600BC006AD605 /* SBMultipleSpacesHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMultipleSpacesHighlighter.h; sourceTree = "<group>"; };
+		F496A7561AC600BC006AD605 /* SBMultipleSpacesHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMultipleSpacesHighlighter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				F496A7301AC60067006AD605 /* AppDelegate.m */,
 				F496A7521AC6009B006AD605 /* ViewController.h */,
 				F496A7531AC6009B006AD605 /* ViewController.m */,
-				F496A7551AC600BC006AD605 /* SBMultipleSpaceHighlighter.h */,
-				F496A7561AC600BC006AD605 /* SBMultipleSpaceHighlighter.m */,
+				F496A7551AC600BC006AD605 /* SBMultipleSpacesHighlighter.h */,
+				F496A7561AC600BC006AD605 /* SBMultipleSpacesHighlighter.m */,
 				F496A7341AC60067006AD605 /* Images.xcassets */,
 				F496A7361AC60067006AD605 /* MainMenu.xib */,
 				F496A72D1AC60067006AD605 /* Supporting Files */,
@@ -223,7 +223,7 @@
 				F496A7541AC6009B006AD605 /* ViewController.m in Sources */,
 				F496A7331AC60067006AD605 /* main.m in Sources */,
 				F496A7311AC60067006AD605 /* AppDelegate.m in Sources */,
-				F496A7571AC600BC006AD605 /* SBMultipleSpaceHighlighter.m in Sources */,
+				F496A7571AC600BC006AD605 /* SBMultipleSpacesHighlighter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +410,7 @@
 				F496A7491AC60068006AD605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F496A74A1AC60068006AD605 /* Build configuration list for PBXNativeTarget "MultipleSpacesHighlighterTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				F496A74C1AC60068006AD605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

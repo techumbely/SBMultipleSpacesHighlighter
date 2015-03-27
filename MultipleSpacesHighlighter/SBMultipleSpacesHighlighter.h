@@ -1,5 +1,5 @@
 //
-//  SBMultipleSpaceHighlighter.h
+//  SBMultipleSpacesHighlighter.h
 //  MultipleSpaceHighlighter
 //
 //  Created by Simon Braun on 27.03.15.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
 
-@interface SBMultipleSpaceHighlighter : NSObject
+@interface SBMultipleSpacesHighlighter : NSObject
 
 -(NSTextView *)hightlightMultipleSpacesIn:(NSTextView *)textView;
 

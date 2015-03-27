@@ -8,11 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "SBMultipleSpaceHighlighter.h"
+#import "SBMultipleSpacesHighlighter.h"
 
 @interface ViewController : NSViewController <NSTextViewDelegate> {
 
-    SBMultipleSpaceHighlighter *multipleSpaceHighlighter;
+    SBMultipleSpacesHighlighter *multipleSpaceHighlighter;
 }
 
 @property (unsafe_unretained) IBOutlet NSTextView *textView;

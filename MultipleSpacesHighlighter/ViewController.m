@@ -28,7 +28,7 @@
 
 -(void)highlightMultipleSpaces {
     
-    multipleSpaceHighlighter = [[SBMultipleSpaceHighlighter alloc] init];
+    multipleSpaceHighlighter = [[SBMultipleSpacesHighlighter alloc] init];
     
     _textView = [multipleSpaceHighlighter hightlightMultipleSpacesIn:_textView];
 }
