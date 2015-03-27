@@ -1,7 +1,11 @@
 # SBMultipleSpacesHighlighter
 Method for hihglighting multiple continuos spaces within a NSTextView (10.7+)
 
-# License
+## Requirements
+
+Mac OS X 10.7+
+
+## License
 
 The MIT License (MIT)
 
@@ -25,5 +29,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-# Created by
-[Simon](http://simon-braun.com) – [@_simonbraun](https://twitter.com/_simonbraun)
+## Created by
+[Simon Braun](http://simon-braun.com) ([@_simonbraun](https://twitter.com/_simonbraun))
