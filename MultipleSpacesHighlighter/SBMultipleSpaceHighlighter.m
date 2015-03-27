@@ -1,6 +1,6 @@
 //
 //  SBMultipleSpaceHighlighter.m
-//  DoubleSpaceHighlighter
+//  MultipleSpaceHighlighter
 //
 //  Created by Simon Braun on 27.03.15.
 //  Copyright (c) 2015 Simon Braun. All rights reserved.
@@ -24,7 +24,7 @@
     NSRange originalRange = NSMakeRange(0, [textView textStorage].length);
     [[textView textStorage] addAttribute:NSBackgroundColorAttributeName value:[NSColor clearColor] range:originalRange];
     
-    // Filtering with RegEx for more than 2 continuos white spaces
+    // Filtering with RegularExpression for more than 2 continuos spaces
     NSError *error = NULL;
     NSRegularExpression *multipleSpaces = [NSRegularExpression
                                            regularExpressionWithPattern:@" {2,}"

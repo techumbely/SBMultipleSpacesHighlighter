@@ -17,6 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+    
+    [self highlightMultipleSpaces];
+}
+
+-(void)textViewDidChangeSelection:(NSNotification *)notification {
+    
+    [self highlightMultipleSpaces];
+}
+
+-(void)highlightMultipleSpaces {
+    
+    multipleSpaceHighlighter = [[SBMultipleSpaceHighlighter alloc] init];
+    
+    _textView = [multipleSpaceHighlighter hightlightMultipleSpacesIn:_textView];
 }
 
 @end
