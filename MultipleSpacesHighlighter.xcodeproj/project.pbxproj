@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F496A7311AC60067006AD605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7301AC60067006AD605 /* AppDelegate.m */; };
+		F496A7331AC60067006AD605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7321AC60067006AD605 /* main.m */; };
+		F496A7351AC60067006AD605 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F496A7341AC60067006AD605 /* Images.xcassets */; };
+		F496A7381AC60067006AD605 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F496A7361AC60067006AD605 /* MainMenu.xib */; };
+		F496A7441AC60068006AD605 /* MultipleSpacesHighlighterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F496A7431AC60068006AD605 /* MultipleSpacesHighlighterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F496A73E1AC60068006AD605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F496A7221AC60067006AD605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F496A7291AC60067006AD605;
+			remoteInfo = MultipleSpacesHighlighter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F496A72A1AC60067006AD605 /* MultipleSpacesHighlighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleSpacesHighlighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F496A72E1AC60067006AD605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F496A72F1AC60067006AD605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F496A7301AC60067006AD605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F496A7321AC60067006AD605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F496A7341AC60067006AD605 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F496A7371AC60067006AD605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F496A73D1AC60068006AD605 /* MultipleSpacesHighlighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleSpacesHighlighterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F496A7421AC60068006AD605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F496A7431AC60068006AD605 /* MultipleSpacesHighlighterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleSpacesHighlighterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F496A7271AC60067006AD605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F496A73A1AC60068006AD605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F496A7211AC60067006AD605 = {
+			isa = PBXGroup;
+			children = (
+				F496A72C1AC60067006AD605 /* MultipleSpacesHighlighter */,
+				F496A7401AC60068006AD605 /* MultipleSpacesHighlighterTests */,
+				F496A72B1AC60067006AD605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F496A72B1AC60067006AD605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F496A72A1AC60067006AD605 /* MultipleSpacesHighlighter.app */,
+				F496A73D1AC60068006AD605 /* MultipleSpacesHighlighterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F496A72C1AC60067006AD605 /* MultipleSpacesHighlighter */ = {
+			isa = PBXGroup;
+			children = (
+				F496A72F1AC60067006AD605 /* AppDelegate.h */,
+				F496A7301AC60067006AD605 /* AppDelegate.m */,
+				F496A7341AC60067006AD605 /* Images.xcassets */,
+				F496A7361AC60067006AD605 /* MainMenu.xib */,
+				F496A72D1AC60067006AD605 /* Supporting Files */,
+			);
+			path = MultipleSpacesHighlighter;
+			sourceTree = "<group>";
+		};
+		F496A72D1AC60067006AD605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F496A72E1AC60067006AD605 /* Info.plist */,
+				F496A7321AC60067006AD605 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F496A7401AC60068006AD605 /* MultipleSpacesHighlighterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F496A7431AC60068006AD605 /* MultipleSpacesHighlighterTests.m */,
+				F496A7411AC60068006AD605 /* Supporting Files */,
+			);
+			path = MultipleSpacesHighlighterTests;
+			sourceTree = "<group>";
+		};
+		F496A7411AC60068006AD605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F496A7421AC60068006AD605 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F496A7291AC60067006AD605 /* MultipleSpacesHighlighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F496A7471AC60068006AD605 /* Build configuration list for PBXNativeTarget "MultipleSpacesHighlighter" */;
+			buildPhases = (
+				F496A7261AC60067006AD605 /* Sources */,
+				F496A7271AC60067006AD605 /* Frameworks */,
+				F496A7281AC60067006AD605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleSpacesHighlighter;
+			productName = MultipleSpacesHighlighter;
+			productReference = F496A72A1AC60067006AD605 /* MultipleSpacesHighlighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F496A73C1AC60068006AD605 /* MultipleSpacesHighlighterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F496A74A1AC60068006AD605 /* Build configuration list for PBXNativeTarget "MultipleSpacesHighlighterTests" */;
+			buildPhases = (
+				F496A7391AC60068006AD605 /* Sources */,
+				F496A73A1AC60068006AD605 /* Frameworks */,
+				F496A73B1AC60068006AD605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F496A73F1AC60068006AD605 /* PBXTargetDependency */,
+			);
+			name = MultipleSpacesHighlighterTests;
+			productName = MultipleSpacesHighlighterTests;
+			productReference = F496A73D1AC60068006AD605 /* MultipleSpacesHighlighterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F496A7221AC60067006AD605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Simon Braun";
+				TargetAttributes = {
+					F496A7291AC60067006AD605 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F496A73C1AC60068006AD605 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F496A7291AC60067006AD605;
+					};
+				};
+			};
+			buildConfigurationList = F496A7251AC60067006AD605 /* Build configuration list for PBXProject "MultipleSpacesHighlighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F496A7211AC60067006AD605;
+			productRefGroup = F496A72B1AC60067006AD605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F496A7291AC60067006AD605 /* MultipleSpacesHighlighter */,
+				F496A73C1AC60068006AD605 /* MultipleSpacesHighlighterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F496A7281AC60067006AD605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F496A7351AC60067006AD605 /* Images.xcassets in Resources */,
+				F496A7381AC60067006AD605 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F496A73B1AC60068006AD605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F496A7261AC60067006AD605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F496A7331AC60067006AD605 /* main.m in Sources */,
+				F496A7311AC60067006AD605 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F496A7391AC60068006AD605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F496A7441AC60068006AD605 /* MultipleSpacesHighlighterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F496A73F1AC60068006AD605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F496A7291AC60067006AD605 /* MultipleSpacesHighlighter */;
+			targetProxy = F496A73E1AC60068006AD605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F496A7361AC60067006AD605 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F496A7371AC60067006AD605 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F496A7451AC60068006AD605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F496A7461AC60068006AD605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F496A7481AC60068006AD605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipleSpacesHighlighter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F496A7491AC60068006AD605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipleSpacesHighlighter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F496A74B1AC60068006AD605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleSpacesHighlighterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleSpacesHighlighter.app/Contents/MacOS/MultipleSpacesHighlighter";
+			};
+			name = Debug;
+		};
+		F496A74C1AC60068006AD605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleSpacesHighlighterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleSpacesHighlighter.app/Contents/MacOS/MultipleSpacesHighlighter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F496A7251AC60067006AD605 /* Build configuration list for PBXProject "MultipleSpacesHighlighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F496A7451AC60068006AD605 /* Debug */,
+				F496A7461AC60068006AD605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F496A7471AC60068006AD605 /* Build configuration list for PBXNativeTarget "MultipleSpacesHighlighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F496A7481AC60068006AD605 /* Debug */,
+				F496A7491AC60068006AD605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F496A74A1AC60068006AD605 /* Build configuration list for PBXNativeTarget "MultipleSpacesHighlighterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F496A74B1AC60068006AD605 /* Debug */,
+				F496A74C1AC60068006AD605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F496A7221AC60067006AD605 /* Project object */;
+}
