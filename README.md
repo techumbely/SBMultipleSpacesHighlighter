@@ -1,5 +1,5 @@
 # SBMultipleSpacesHighlighter
-Method for hihglighting multiple continuos spaces within a NSTextView (10.7+)
+Method for highlighting multiple continuous spaces within a NSTextView (10.7+)
 
 ## Requirements
 
